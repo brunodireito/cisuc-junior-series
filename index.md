@@ -1,6 +1,8 @@
 ---
 layout: home
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies interdum lacus quis gravida. Vestibulum eget arcu in dui facilisis luctus. Curabitur rhoncus nibh non neque viverra facilisis. Nam nec placerat augue, ut mollis ante. Morbi pulvinar iaculis felis eget pretium. Duis euismod, risus non placerat accumsan, mi nisl euismod nibh, quis finibus ante mauris eu odio.
+The CISUC Junior Series is a seminar initiative designed specifically for our junior members. The primary goal is to foster a collaborative environment where Master's and PhD students can interact, present their ongoing research to peers, and stimulate lively discussion.
 
-Nullam a nunc felis. Aenean nec metus sed elit feugiat elementum sed ut quam. Maecenas dignissim augue nec sollicitudin sagittis. Donec sagittis dolor non tincidunt eleifend. Donec vel nibh et leo pretium dignissim. Nulla vehicula arcu velit, ac facilisis turpis fermentum ac. Integer at tempus sem, in vehicula magna. Ut tempor est nec nisl imperdiet porttitor sit amet maximus massa.
+Each session features brief presentations (7 slides, 10 minutes) followed by an extensive discussion period (20 minutes). Students are encouraged to share both scientific and technical aspects of their work. To spark further conversation and highlight exciting developments, the final two slides of each presentation must be reserved for "Challenges" and "Cool Stuff."
+
+This format serves as a key platform for sharing knowledge, receiving feedback, and strengthening our internal research community.

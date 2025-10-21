@@ -1,7 +1,7 @@
-title: Conference 2020
+title: CISUC junior series
 preposition: ''
 description: >-
-  Conference of a random organization on January 1st in Zurich, Switzerland
+  Seminar series of CISUC junior members.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -68,5 +68,31 @@ conference:
 
   program:
     url: '/program'
-    time_steps: 15
+    time_steps: 10
     show_alltimes: true
+  
+  talks:
+    # Talk tracks
+    tracks:
+      - name: Digital Health
+        color: info
+      - name: Cat B
+        color: success
+
+    # Talk tags
+    tags:
+      - name: No recording
+        icon: video-slash
+
+    # Hide link icons on talk overview page
+    hide_link_icons: false
+
+  navigation:
+    links:
+      - name: Program
+        relative_url: /program/
+      - live: true
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Talks
+        relative_url: /talks/

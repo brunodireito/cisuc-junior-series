@@ -1,8 +1,8 @@
 ---
-name: Vim Impetus Placerat Cotidieque Ad
+name: On the use of Graph-Neural Networks to decoding the valence in fMRI data
 speakers:
-  - Tolga Philip
-track: Cat B
+  - Claudia Campos
+track: Digital Health
 tags:
   - Talk
 ---

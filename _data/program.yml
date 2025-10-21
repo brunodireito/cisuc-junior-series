@@ -1,23 +1,22 @@
 days:
-- name: Monday
-  abbr: Mo
-  date: 2020-01-31
+- name: Wednesday, 5th November
+  abbr: We
+  date: 2025-11-05
   rooms:
   - name: Room A
     talks:
-      - name: Vim Impetus Placerat Cotidieque Ad
-        time_start: '12:00'
-        time_end: '12:45'
-      - name: Condimentum Vitae Sapien Pellentesque
-        time_start: '12:45'
-        time_end: '13:30'
-
+      - name: On the use of Graph-Neural Networks to decoding the valence in fMRI data
+        time_start: '16:00'
+        time_end: '16:45'
+- name: Monday, 15th February
+  abbr: Mo2
+  date: 2020-02-15
+  rooms:
   - name: Room B
     talks:
       - name: Arcu Non Odio
         time_start: '12:00'
         time_end: '13:00'
-
   - name: Room C
     talks:
       - name: Eu Nisl Nunc Mi Ipsum Faucibus

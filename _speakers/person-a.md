@@ -1,7 +1,7 @@
 ---
-name: Tolga Philip
-first_name: Tolga
-last_name: Philip
+name: Claudia Campos
+first_name: Claudia
+last_name: Campos
 links:
   - name: Profile
     absolute_url: https://github.com

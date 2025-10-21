@@ -3,7 +3,7 @@ name: Condimentum Vitae Sapien Pellentesque
 speakers:
   - Tolga Philip
   - Alex Rosales
-track: Cat A
+track: Digital Health
 tags:
   - Talk
   - No recording

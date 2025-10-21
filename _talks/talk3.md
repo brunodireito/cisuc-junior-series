@@ -2,11 +2,11 @@
 name: Arcu Non Odio
 speakers:
   - Alex Rosales
-track: Cat A
+track: Digital Health
 tags:
   - Talk
 links:
-  - name: Recodring
+  - name: Recording
     icon: video
     absolute_url: https://media.ccc.de/
   - name: Wikipedia
