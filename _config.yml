@@ -3,24 +3,24 @@ preposition: ''
 description: >-
   Seminar series of CISUC junior members.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://brunodireito.github.io/cisuc-junior-series/" # the base hostname & protocol for your site, e.g. https://example.com
+
+theme: jekyll-theme-conference
+
 
 # Build settings
 markdown: kramdown
 sass:
   style: compressed
 
-# Exclude from processing
+# Additional exclude from processing
 exclude:
+  - vendor
   - .github/
-  - venv/
   - README.md
   - LICENSE.md
   - REDISTRIBUTED.md
-  - screenshot.png
-  - jekyll-theme-conference.gemspec
   - purgecss.config.js
-  - _config.example.yml
 
 # Collections and their defaults
 collections:
