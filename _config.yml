@@ -2,7 +2,7 @@ title: CISUC junior series
 preposition: ''
 description: >-
   Seminar series of CISUC junior members.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://brunodireito.github.io/cisuc-junior-series/" # the subpath of your site, e.g. /blog
 url: "https://brunodireito.github.io/cisuc-junior-series/" # the base hostname & protocol for your site, e.g. https://example.com
 
 
@@ -86,6 +86,10 @@ conference:
     hide_link_icons: false
 
   navigation:
+    logo:
+      name: CISUC
+      # img: ''
+      url: 'https://cisuc.pt/'
     links:
       - name: Program
         relative_url: /program/
@@ -94,3 +98,38 @@ conference:
         relative_url: /speakers/
       - name: Talks
         relative_url: /talks/
+
+   # Main landing page
+  main:
+    # logo:
+    #   img: ''
+    links:
+      - name: Program
+        relative_url: /program/
+      - name: How to get there
+        relative_url: /location/
+
+  location:
+    # Disable links to locations
+    hide: false
+    # URL of location / room overview page
+    url: '/location'
+    # Main page title shown on location/room navigation bar
+    navbar_title: 'Location'
+    # Show map on location main page.  Set `map: false` if you don't want to
+    # display it.
+    map:
+      # Initial map center point
+      home_coord: 40.18668302656751, -8.415041817362024
+      # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
+      # The following do match the Bootstrap design not too badly:
+      #   - Thunderforest.Neighbourhood
+      #   - Esri.WorldTopoMap
+      map_provider: "OpenStreetMap.Mapnik"
+      default_zoom: 17
+
+
+  program:
+    # URL of program page
+    url: '/program'
+
