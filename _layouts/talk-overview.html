@@ -1,0 +1,36 @@
+{% include partials/header.html %}
+
+<h1 class="display-5 mb-4 text-break">
+  {%- if page.title -%}
+    {{- page.title -}}
+  {%- else -%}
+    {{- site.data.lang[site.conference.lang].talk.overview | default: "Talks" -}}
+  {%- endif -%}
+</h1>
+
+{{ content }}
+
+{% if site.conference.talks.tracks %}
+  {% for track_prop in site.conference.talks.tracks %}
+    <h3 class="mt-4 mb-3">
+      <span class="badge border-soft-{{ track_prop.color | default: 'light' }} bg-soft-{{ track_prop.color | default: 'light' }} d-block d-sm-inline text-wrap">
+        {{ track_prop.name }}
+      </span>
+    </h3>
+    <ul class="list-unstyled">
+      {% for talk in site.talks -%}
+        {% if talk.track == track_prop.name %}
+          {% include partials/get_talk_overview_talk.html %}
+        {% endif %}
+      {%- endfor %}
+    </ul>
+  {% endfor %}
+{% else %}
+  <ul class="list-unstyled">
+    {% for talk in site.talks -%}
+      {% include partials/get_talk_overview_talk.html %}
+    {%- endfor %}
+  </ul>
+{% endif %}
+
+{% include partials/footer.html %}
