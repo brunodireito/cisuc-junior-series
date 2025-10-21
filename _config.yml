@@ -2,8 +2,8 @@ title: CISUC junior series
 preposition: ''
 description: >-
   Seminar series of CISUC junior members.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://brunodireito.github.io/cisuc-junior-series/" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "/cisuc-junior-series" # the subpath of your site, e.g. /blog
+url: "https://brunodireito.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 
 
 # Build settings
