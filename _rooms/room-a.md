@@ -1,5 +1,5 @@
 ---
-name: Room A
+name: Lab G.4.2
 ---
 
-A short way description on how to find the room
+Laboratory in the Gtower, 4th floor, room 2.

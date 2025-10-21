@@ -76,7 +76,7 @@ conference:
     tracks:
       - name: Digital Health
         color: info
-      - name: Cat B
+      - name: Machine Learning Fundamentals
         color: success
 
     # Talk tags

@@ -5,20 +5,24 @@ days:
   rooms:
   - name: Room A
     talks:
-      - name: On the use of Graph-Neural Networks to decoding the valence in fMRI data
+      - name: CISUC series - Presentation
         time_start: '16:00'
-        time_end: '16:45'
-- name: Monday, 15th February
-  abbr: Mo2
-  date: 2020-02-15
-  rooms:
-  - name: Room B
-    talks:
-      - name: Arcu Non Odio
-        time_start: '12:00'
-        time_end: '13:00'
-  - name: Room C
-    talks:
-      - name: Eu Nisl Nunc Mi Ipsum Faucibus
-        time_start: '13:30'
-        time_end: '14:30'
+        time_end: '16:30'
+      - name: On the use of Graph-Neural Networks to decoding the valence in fMRI data
+        time_start: '16:30'
+        time_end: '17:00'
+
+#- name: Monday, 15th February
+#  abbr: Mo2
+#  date: 2020-02-15
+#  rooms:
+#  - name: Room B
+#    talks:
+#      - name: Arcu Non Odio
+#        time_start: '12:00'
+#        time_end: '13:00'
+#  - name: Room C
+#    talks:
+#      - name: Eu Nisl Nunc Mi Ipsum Faucibus
+#        time_start: '13:30'
+#        time_end: '14:30'
