@@ -3,7 +3,10 @@ preposition: ''
 description: >-
   Seminar series of CISUC junior members.
 baseurl: "/cisuc-junior-series" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. https://example.com
+url: "" # the base hostname & protocol for your site, e.g. https://brunodireito.github.io/cisuc-junior-series/
+  # Leave blank if you are using GitHub pages
+  # (https://USERNAME.github.io/REPO_NAME)
+theme: jekyll-conference
 
 
 # Build settings
