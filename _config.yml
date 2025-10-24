@@ -1,4 +1,4 @@
-title: CISUC junior series
+title: Coffee Algorithm
 preposition: ''
 description: >-
   Seminar series of CISUC junior members.
@@ -68,7 +68,7 @@ conference:
 
   program:
     url: '/program'
-    time_steps: 10
+    time_steps: 5
     show_alltimes: true
   
   talks:
@@ -89,9 +89,9 @@ conference:
 
   navigation:
     logo:
-      name: CISUC
-      # img: ''
-      url: 'https://cisuc.uc.pt/'
+      img: ''
+      url: ''
+
     links:
       - name: Program
         relative_url: /program/
@@ -101,10 +101,12 @@ conference:
       - name: Talks
         relative_url: /talks/
 
-   # Main landing page
+  # Main landing page
   main:
-    # logo:
-    #   img: ''
+    logo:
+      img: ''
+      url: '/'
+    title: 'Coffee Algorithm'
     links:
       - name: Program
         relative_url: /program/

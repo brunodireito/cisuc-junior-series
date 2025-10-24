@@ -1,7 +1,7 @@
 ---
-name: CISUC series - Presentation
+name: Coffee Algorithm - Presentation
 speakers:
-  - Claudia Campos
+  - Alexandre Sayal
   - Bruno Direito
 track: Machine Learning Fundamentals
 tags:
