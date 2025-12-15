@@ -1,133 +1,84 @@
-title: Coffee Algorithm
-preposition: ''
-description: >-
-  Seminar series of CISUC junior members.
-url: "https://brunodireito.github.io" # the base hostname & protocol for your site, e.g. https://brunodireito.github.io/cisuc-junior-series/
-  # Leave blank if you are using GitHub pages
-  # (https://USERNAME.github.io/REPO_NAME)
-baseurl: "/cisuc-junior-series" # the subpath of your site, e.g. /blog
+# Site Settings
+name: CoffeeAlgorithm
+title: CoffeeAlgorithm 
+description: CoffeeAlgorithm is a template for Jekyll for CISUC's junior series.
+tags:
+  - blog
+  - template
+  - jekyll
+  - theme
+  - netlify
+email: youremail@xyz.com
+disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
 
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
 sass:
   style: compressed
 
-# Additional exclude from processing
-exclude:
-  - vendor
-  - .github/
-  - README.md
-  - LICENSE.md
-  - REDISTRIBUTED.md
-  - purgecss.config.js
-
-# Collections and their defaults
-collections:
-  talks:
-    output: true
-    permalink: /:collection/:title/
-  speakers:
-    output: true
-    permalink: /:collection/:title/
-  rooms:
-    output: true
-    permalink: /:collection/:title/
-
-defaults:
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-  - scope:
-      path: ""
-      type: speakers
-    values:
-      layout: speaker
-  - scope:
-      path: ""
-      type: rooms
-    values:
-      layout: room
-
-# Theme default values
-conference:
-  lang: en
-  show_errors: True
-
-  link_preview:
-    disable: false
-
-  speakers:
-    show_firstname: true
-
-  location:
-    url: '/location'
-    map: true
-
-  program:
-    url: '/program'
-    time_steps: 5
-    show_alltimes: true
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
   
-  talks:
-    # Talk tracks
-    tracks:
-      - name: Digital Health
-        color: info
-      - name: Machine Learning Fundamentals
-        color: success
-
-    # Talk tags
-    tags:
-      - name: No recording
-        icon: video-slash
-
-    # Hide link icons on talk overview page
-    hide_link_icons: false
-
-  navigation:
-    logo:
-      img: ''
-      url: ''
-
-    links:
-      - name: Program
-        relative_url: /program/
-      - live: true
-      - name: Speakers
-        relative_url: /speakers/
-      - name: Talks
-        relative_url: /talks/
-
-  # Main landing page
-  main:
-    logo:
-      img: ''
-      url: '/'
-    title: 'Coffee Algorithm'
-    links:
-      - name: Program
-        relative_url: /program/
-      - name: How to get there
-        relative_url: /location/
-
-  location:
-    # Disable links to locations
-    hide: false
-    # URL of location / room overview page
-    url: '/location'
-    # Main page title shown on location/room navigation bar
-    navbar_title: 'Location'
-    # Show map on location main page.  Set `map: false` if you don't want to
-    # display it.
-    map:
-      # Initial map center point
-      home_coord: 40.18668302656751, -8.415041817362024
-      # Alternative map providers can be found on https://leaflet-extras.github.io/leaflet-providers/preview/
-      # The following do match the Bootstrap design not too badly:
-      #   - Thunderforest.Neighbourhood
-      #   - Esri.WorldTopoMap
-      map_provider: "OpenStreetMap.Mapnik"
-      default_zoom: 17
