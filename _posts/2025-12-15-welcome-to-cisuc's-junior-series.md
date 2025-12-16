@@ -10,8 +10,7 @@ optimized_image: >-
   https://www.cisuc.uc.pt/download-file/11897/RjBDOXlnXV0Xo8eT7iYT?w=1220
 category: blog
 tags:
-    - guidelines
-    - how-to 
+    - welcome
 author: brunodireito
 paginate: false
 ---
