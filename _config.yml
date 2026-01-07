@@ -8,16 +8,14 @@ tags:
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
+email: bruno.direito@uc.pt
 disqus_username: disqus_username
-show_hero: true
+show_hero: false
 menu:
   - title: Home
     url: /
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
   - title: Feed
     url: /feed.xml
 
@@ -29,18 +27,18 @@ twitter_username: twitter_username
 linkedin_username: linkedin_username
 
 # Posts Settings
-show_time_bar: true
+show_time_bar: false
 show_modal_on_exit: false
-show_modal_on_finish_post: true
+show_modal_on_finish_post: false
 two_columns_layout: true
 
 # Advanced Settings
-url: "https://brunoleitao.github.io"
-baseurl: "/cisuc-junior-series"
+url: "https://brunoleitao.github.io/cisuc-junior-series"
+baseurl: ""
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
-sent_message_url: "/contact/message-sent/"
+
 
 # Build settings
 markdown: kramdown

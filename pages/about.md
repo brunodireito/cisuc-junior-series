@@ -7,13 +7,8 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
-
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The “Coffee Algorithm” is a seminar series designed to foster a collaborative environment where junior and senior members (and, of course, collaborators and everyone interested in these topics) can interact, present their ongoing research, and stimulate lively discussion. This series aims to represent a platform for sharing ongoing research, receiving candid feedback, and strengthening our internal research community.
+
+Contact bmleitao_at_dei.uc.pt for more information!
