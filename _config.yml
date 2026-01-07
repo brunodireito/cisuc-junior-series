@@ -26,9 +26,7 @@ menu:
 github_username: github_username
 facebook_username: facebook_username
 twitter_username: twitter_username
-instagram_username: instagram_username
 linkedin_username: linkedin_username
-medium_username: medium_username
 
 # Posts Settings
 show_time_bar: true

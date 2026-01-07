@@ -1,7 +1,7 @@
 ---
 date: 2025-12-15 17:12:41
 layout: post
-title: "Welcome to CISUC's junior series"
+title: "Welcome to CISUC's Adaptive Computation dicussions series"
 subtitle:
 description:
 image: >-
@@ -15,12 +15,12 @@ author: brunodireito
 paginate: false
 ---
 
-The CoffeeAlgorithm is a seminar series designed to foster a collaborative environment where Master's and PhD students (and, of course, full members and collaborators) can interact, present their ongoing research, and stimulate lively discussion. This series is a key platform for sharing ongoing research, receiving candid feedback, and strengthening our internal research community.
+The "Coffee Algorithm" is a seminar series designed to foster a collaborative environment where junior and senior members (and, of course, collaborators and everyone interested in these topics) can interact, present their ongoing research, and stimulate lively discussion. This series aims to represent a platform for sharing ongoing research, receiving candid feedback, and strengthening our internal research community.
 
 
 Each session is fast-paced and discussion-driven, featuring a 10-minute, 10-slide presentation followed by an extensive 30-minute group discussion.
 
-Presenters are encouraged to share both scientific and technical aspects of their work. To spark genuine conversation, the final two slides are mandatory and must be reserved for "I'm Stuck": A space to present a current problem and crowdsource ideas; "Cool Stuff": A moment to share exciting breakthroughs or discoveries.
+Presenters are encouraged to share both scientific and technical aspects of their work. To spark genuine conversation, the final two slides are recommended and we suggest to be reserved for "I'm Stuck": A space to present a current problem and crowdsource ideas; "Cool Stuff": A moment to share exciting breakthroughs or discoveries.
 
 
 When: Every second Wednesday of the month, we meet at 13:15. 
