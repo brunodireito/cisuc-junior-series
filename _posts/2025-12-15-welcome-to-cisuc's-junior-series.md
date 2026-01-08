@@ -23,9 +23,9 @@ Each session is fast-paced and discussion-driven, featuring a 10-minute, 10-slid
 Presenters are encouraged to share both scientific and technical aspects of their work. To spark genuine conversation, the final two slides are recommended and we suggest to be reserved for "I'm Stuck": A space to present a current problem and crowdsource ideas; "Cool Stuff": A moment to share exciting breakthroughs or discoveries.
 
 
-When: Every second Wednesday of the month, we meet at 13:15. 
+When: Every second Wednesday of the month, we meet at 14:30. 
 
-Where: room A.5.1 (And yes, as the name implies, coffee will be served!)
+Where: room A.5.1 (And yes, as the name implies, bring a cup of coffee or tea if you prefer!)
 
 Want to present? Contact bmleitao_at_dei.uc.pt to schedule your talk.
 
