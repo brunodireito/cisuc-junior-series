@@ -33,8 +33,8 @@ show_modal_on_finish_post: false
 two_columns_layout: true
 
 # Advanced Settings
-url: "https://brunoleitao.github.io/cisuc-junior-series"
-baseurl: ""
+url: "https://brunoleitao.github.io"
+baseurl: "/cisuc-junior-series"
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
