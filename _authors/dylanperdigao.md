@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: https://drive.google.com/thumbnail?id={10jiMLFEXNNExBMUZ_whZYC-287Or9GW2}
+photo: https://drive.usercontent.google.com/download?id=10jiMLFEXNNExBMUZ_whZYC-287Or9GW2
 name: dylanperdigao
 display_name: Dylan Perdigão
 position: PhD student

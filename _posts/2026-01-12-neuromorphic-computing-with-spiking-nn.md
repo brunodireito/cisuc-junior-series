@@ -5,9 +5,9 @@ title: "Neuromorphic Computing with Spiking Neural Networks for Energy-Efficienc
 subtitle: "Bio-Inspired. Event-Driven. Energy-Efficient."
 description:
 image: >-
-  https://drive.google.com/thumbnail?id={1ZtZc7k422AO3kO6pnYxL5MlJuFI2ZNbb}
+  https://drive.usercontent.google.com/download?id=1ZtZc7k422AO3kO6pnYxL5MlJuFI2ZNbb
 optimized_image: >-
-  https://drive.google.com/thumbnail?id={1ZtZc7k422AO3kO6pnYxL5MlJuFI2ZNbb}
+  https://drive.usercontent.google.com/download?id=1ZtZc7k422AO3kO6pnYxL5MlJuFI2ZNbb
 category: blog
 tags:
     - guidelines
