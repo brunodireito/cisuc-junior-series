@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/dylanperdigao.jpeg
+photo: "/assets/img/uploads/dylanperdigao.jpeg"
 name: dylanperdigao
 display_name: Dylan Perdigão
 position: PhD student

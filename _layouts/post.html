@@ -22,7 +22,7 @@
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
                 {% if page.image and paginator.activated == nil %}
-                    <img src="{{ page.image }}" alt="Featured image" class="post-cover">
+                    <img src="{{ page.image | relative_url }}" alt="Featured image" class="post-cover">
                 {% endif %}
 
                 {% include pagination-post.html progressBar=true %}
@@ -44,11 +44,11 @@
                             <li>
                                 <a href="{{ post.url | prepend: site.baseurl }}">
                                     {% if post.optimized_image %}
-                                        <img src="{{ post.optimized_image }}">
+                                        <img src="{{ post.optimized_image | relative_url }}">
                                     {% elsif post.image %}
-                                        <img src="{{ post.image }}">
+                                        <img src="{{ post.image | relative_url }}">
                                     {% else %}
-                                        <img src="/assets/img/off.jpg">
+                                        <img src="{{ '/assets/img/off.jpg' | relative_url }}">
                                     {% endif %}
                                     <h3>{{ post.title }}</h3>
                                 </a>
@@ -122,7 +122,7 @@
             "name": "{{ page.title }}",
             "headline": "{{ page.subtitle }}",
             "description": "{{ page.description }}",
-            "image": "{{ page.image }}",
+            "image": "{{ page.image | relative_url }}",
             "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
             "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
             "wordcount": "{{ content | number_of_words }}",
@@ -134,7 +134,7 @@
                 "@type": "Person",
                 "name": "{{ author.display_name }}",
                 {% if author.photo %}
-                "image": "{{ author.photo }}",
+                "image": "{{ author.photo | relative_url }}",
                 {% else %}
                 "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
                 {% endif %}
