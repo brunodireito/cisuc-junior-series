@@ -8,8 +8,8 @@ image: "/assets/img/uploads/braindecoding.png"
 optimized_image: "/assets/img/uploads/braindecoding.png"
 category: blog
 tags:
-    - guidelines
-    - how-to 
+    - seminar
+    - ideas
 author: danielagostinho
 paginate: false
 ---

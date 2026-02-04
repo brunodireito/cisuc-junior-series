@@ -1,7 +1,7 @@
 # Site Settings
 name: CoffeeAlgorithm
 title: CoffeeAlgorithm 
-description: CoffeeAlgorithm is a template for Jekyll for CISUC's junior series.
+description: CoffeeAlgorithm is the CISUC's junior series.
 tags:
   - blog
   - template

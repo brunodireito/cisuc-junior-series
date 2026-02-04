@@ -8,8 +8,8 @@ image: "/assets/img/uploads/snn.png"
 optimized_image: "/assets/img/uploads/snn.png"
 category: blog
 tags:
-    - guidelines
-    - how-to 
+    - seminar
+    - ideas
 author: dylanperdigao
 paginate: false
 ---
