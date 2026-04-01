@@ -9,7 +9,7 @@ optimized_image: "/assets/img/uploads/invited_speakers.jpg"
 category: blog
 tags:
     - seminar
-author: Clemens Thielen
+author: clemensthielen
 paginate: false
 ---
 
