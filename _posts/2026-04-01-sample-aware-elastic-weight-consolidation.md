@@ -4,8 +4,8 @@ layout: post
 title: "Sample-Aware Elastic Weight Consolidation"
 subtitle:
 description:
-image: "/assets/img/uploads/dinis_pegada.jpeg"
-optimized_image: "/assets/img/uploads/dinis_pegada.jpeg"
+image: "/assets/img/uploads/dinis_graphicalabs.png"
+optimized_image: "/assets/img/uploads/dinis_graphicalabs.png"
 category: blog
 tags:
 author: diniscosta
