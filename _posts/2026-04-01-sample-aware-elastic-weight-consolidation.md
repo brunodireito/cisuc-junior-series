@@ -12,7 +12,7 @@ author: diniscosta
 paginate: false
 ---
 
-[Presentation on the 25th March 2026, A.5.1]
+[Presentation on the 25th April 2026, A.5.1]
 
 
 Continual Learning addresses a crucial factor in machine learning: the ability of established models to update with new data without suffering from "catastrophic forgetting." This work focuses on Elastic Weight Consolidation (EWC), a prominent regularization technique. It investigates a novel direction by examining how data selection strategies can optimize this process. While EWC typically estimates parameter importance using the Fisher Information Matrix based on all prior training data, this research proposes a sample-aware approach to better guide and optimize the consolidation process.
