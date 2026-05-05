@@ -8,7 +8,7 @@ image:
 optimized_image:
 category: blog
 tags:
-author: ricardoinacio
+author: ricardoinacio, diniscosta
 paginate: false
 ---
 

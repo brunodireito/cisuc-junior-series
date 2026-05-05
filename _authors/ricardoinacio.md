@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: /assets/img/uploads/ricardoinacio.jpeg
 name: ricardoinacio
 display_name: Ricardo Inácio
 position: PhD student
