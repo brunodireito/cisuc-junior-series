@@ -8,6 +8,8 @@ image: "/assets/img/uploads/graph-time-series.png"
 optimized_image: "/assets/img/uploads/graph-time-series.png"
 category: blog
 tags:
+    - seminar
+    - ideas
 authors: 
 - ricardoinacio
 - luisamorim

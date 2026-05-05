@@ -12,7 +12,7 @@
       {% endif %}
       <p class="def">{{ site.translations.text.author | default: "Author" }}</p>
       <h3 class="name">
-        <a href="{{ author.url }}">{{ author.display_name }}</a>
+        <a href="{{ author.url | relative_url }}">{{ author.display_name }}</a>
       </h3>
       <p class="desc">{{ author.bio }}</p>
       <p>

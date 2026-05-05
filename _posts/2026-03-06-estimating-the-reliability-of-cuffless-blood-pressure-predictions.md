@@ -9,6 +9,7 @@ optimized_image: "/assets/img/uploads/reliability.jpg"
 category: blog
 tags:
     - seminar
+    - ideas
 author: joaoloureiro
 paginate: false
 ---

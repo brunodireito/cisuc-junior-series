@@ -8,6 +8,8 @@ image: "/assets/img/uploads/dinis_graphicalabs.png"
 optimized_image: "/assets/img/uploads/dinis_graphicalabs.png"
 category: blog
 tags:
+    - seminar
+    - ideas
 author: diniscosta
 paginate: false
 ---

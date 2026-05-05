@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: /assets/img/uploads/dinis_pegada.jpeg
 name: diniscosta
 display_name: Dinis Costa
 position: PhD student
