@@ -49,6 +49,7 @@ GEM
     logger (1.7.0)
     mercenary (0.3.6)
     mutex_m (0.3.0)
+    ostruct (0.6.3)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.1.1)
@@ -80,6 +81,7 @@ DEPENDENCIES
   kramdown-parser-gfm
   logger
   mutex_m
+  ostruct
   rouge
   webrick
 

@@ -78,7 +78,24 @@
 
         {% include subscription.html %}
         {% include share.html %}
-        {% include author.html %}
+        <div class="authors-container">
+           {% if page.authors %}
+                {% comment %} --- Handle Multiple Authors --- {% endcomment %}
+                {% for author_id in page.authors %}
+                {% assign author = site.authors | where: "slug", author_id | first %}
+                {% if author %}
+                    {% include author.html author=author %}
+                {% endif %}
+                {% endfor %}
+                
+            {% elsif page.author %}
+                {% comment %} --- Handle Single Author (Fallback) --- {% endcomment %}
+                {% assign author = site.authors | where: "slug", page.author | first %}
+                {% if author %}
+                {% include author.html author=author %}
+                {% endif %}
+            {% endif %}
+        </div>
         {% include comments.html %}
         {% include footer.html %}
 
@@ -130,20 +147,27 @@
             "dateCreated": "{{ page.date | date: '%Y-%m-%d/' }}",
             "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
             "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
-            "author": {
+            "author": [
+            {% if page.authors %}
+                {% for author_id in page.authors %}
+                {% assign author = site.authors | where: "slug", author_id | first %}
+                {
+                    "@type": "Person",
+                    "name": "{{ author.display_name }}",
+                    "image": "{{ author.photo | relative_url | prepend: site.url }}",
+                    "url": "{{ author.url | relative_url | prepend: site.url }}"
+                }{% unless forloop.last %},{% endunless %}
+                {% endfor %}
+            {% elsif page.author %}
+                {% assign author = site.authors | where: "slug", page.author | first %}
+                {
                 "@type": "Person",
                 "name": "{{ author.display_name }}",
-                {% if author.photo %}
-                "image": "{{ author.photo | relative_url }}",
-                {% else %}
-                "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
-                {% endif %}
-                "jobTitle": "{{ author.position }}",
-                "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
-                "sameAs": [
-                    {{ author_urls | split: "," | join: "," }}
-                ]
-            },
+                "image": "{{ author.photo | relative_url | prepend: site.url }}",
+                "url": "{{ author.url | relative_url | prepend: site.url }}"
+                }
+            {% endif %}
+            ],
             "publisher": {
                 "@type": "Organization",
                 "name": "{{ site.name }}",
